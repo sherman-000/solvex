@@ -1,13 +1,16 @@
-import React from "react";
-import { Check, Send } from "lucide-react";
+interface PriceCardProps {
+  tier: string;
+  price: number;
+  isPopular: boolean;
+  ctaText?: string;
+}
 
 const PriceCard = ({
   tier,
   price,
-  features,
   isPopular,
   ctaText = "Contact on Telegram",
-}) => {
+}: PriceCardProps) => {
   return (
     <div
       className={`rounded-xl overflow-hidden ${
@@ -42,7 +45,9 @@ const PriceCard = ({
         </p>
 
         {/* CTA Button */}
-        <a href="https://t.me/solveX_app" target="_blank"
+        <a
+          href="https://t.me/solveX_app"
+          target="_blank"
           className={`w-full py-3 flex items-center justify-center gap-4 rounded-md font-medium transition-all duration-300 ${
             isPopular
               ? "bg-gradient-to-r from-orange-500 to-red-500 hover:shadow-lg hover:shadow-orange-500/20"
@@ -76,8 +81,9 @@ const PricingSection = () => {
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
         Choose Your{" "}
         <span className="bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-300 bg-clip-text text-transparent">
-          Plan 
-        </span>{" "}🎉
+          Plan
+        </span>{" "}
+        🎉
       </h2>
       <p className="text-gray-300 text-center max-w-2xl mx-auto mb-12">
         Select the perfect plan for your needs and ace your coding assessments

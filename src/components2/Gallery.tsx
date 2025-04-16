@@ -1,5 +1,3 @@
-import React from "react";
-import sx2 from "../assets/sx2.png"; // Uncomment if needed
 import sx3 from "../assets/sx3.png"; // Uncomment if needed
 import sx4 from "../assets/sx4.png"; // Uncomment if needed
 

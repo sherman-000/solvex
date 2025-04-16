@@ -1,4 +1,3 @@
-import React from "react";
 import { BetweenHorizonalStart, Image, LetterText, ScanEye, Video } from "lucide-react";
 
 export default function FeatureCombo() {

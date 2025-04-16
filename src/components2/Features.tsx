@@ -1,15 +1,9 @@
-import React from "react";
 import sx2 from "../assets/sx2.png"; // Uncomment if needed
 import {
   Video,
-  Shield,
-  EyeOff,
-  Layers,
-  ArrowUpRight,
   BetweenHorizonalStart,
   Image,
   LetterText,
-  ScanEye,
 } from "lucide-react";
 
 function Features() {

@@ -1,22 +1,14 @@
-import React from "react";
 import Header from "@/components2/Header";
 import solvexLogo from "../assets/solvexLogo.png";
 import sx1L from "../assets/sx1L.png";
 import vid from "../assets/22.mp4";
 import {
-  BetweenHorizonalStart,
-  Download,
-  Image,
-  LetterText,
-  ScanEye,
   Send,
-  Video,
 } from "lucide-react";
 import FeatureCombo from "@/components2/FeatureCombo";
 import Features from "@/components2/Features";
 import PricingSection from "@/components2/PriceCard";
 import Gallery from "@/components2/Gallery";
-import VideoSection from "@/components2/VideoSection";
 
 export default function Home() {
   return (
